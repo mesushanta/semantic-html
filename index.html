@@ -7,54 +7,40 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
   </head>
   <body>
-<header>
-  <nav>
-    <ul>
-      <li class="prev_article_link">
-        <a href="">
-          <button class="link_btn" type="button" name="button">Previous Article</button>
-        </a>
-      </li>
-      <li class="next_article_link">
-        <a href="">
-          <button class="link_btn" type="button" name="button">Next Article</button>
-        </a>
-      </li>
-    </ul>
-  </nav>
-</header>
 <main>
-
-    <h1>
-      The Story of the Chinese Farmer
-    </h1>
-    <time datetime="11-05-2016">11 may 2016</time>
-    <address rel="author">Alexandre Gorius</address>
+    <header>
+      <h1>
+        The Story of the Chinese Farmers
+      </h1>
+      <time datetime="11-05-2016">11 may 2016</time>
+      <address rel="author">Alexandre Gorius</address>
+    </header>
     <figure>
-    <img class="dp_image" src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg" alt="Trulli">
-    <figcaption>Fig1. - Just a random image to look .</figcaption>
+    <img class="dp_image" src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg" alt="I have no idea about this picture">
+    <figcaption>Fig1. - Just a random image.</figcaption>
     </figure>
 
 
-    <section>
-      <h2>Don't forget to</h2>
+    <blockquote>
+      <h3>Keep in mind</h3>
       <ol>
         <li>read this once</li>
         <li>then read it again</li>
         <li>then tell it to your best friend</li>
       </ol>
-    </section>
+    </blockquote>
 
 <section>
 <h2>
   The story
 </h2>
-<article>
+<article id="main_article">
   <p>
+    <img src="img/horses.jpg" alt="running horses">
   Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, “We are so sorry to hear your horse has run away. This is most unfortunate.” The farmer said, “Maybe.” The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, “Oh, isn’t that lucky. What a great turn of events. You now have eight horses!” The farmer again said, “Maybe.”
   </p>
   <p>
@@ -64,58 +50,67 @@
   The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is good or bad — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of good fortune.
   </p>
 
-  <p class="cite">
-    <cite> Eastern Wisdom, Modern Life: Collected Talks </cite> by Alan Watts. Collected between 1960-1969.
-  </p>
-
 </article>
 </section>
-
-
 <section>
-<caption>
-  Lets evaluate the events
-</caption>
+  <caption>
+    Lets evaluate the events
+  </caption>
 
-  <table>
-    <thead>
-    <tr>
-      <th>Event</th>
-      <th>Good or Bad?</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Lose a horse</td>
-      <td>Maybe</td>
-    </tr>
-    <tr>
-      <td>Win more horses</td>
-      <td>Maybe</td>
-    </tr>
-    <tr>
-      <td>Son injurt</td>
-      <td>Maybe</td>
-    </tr>
-    <tr>
-      <td>Avoid war</td>
-      <td>Maybe</td>
-    </tr>
-  </tbody>
-  </table>
+    <table>
+      <thead>
+      <tr>
+        <th>Event</th>
+        <th>Good or Bad?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Lose a horse</td>
+        <td><em class="bad">Bad</em></td>
+      </tr>
+      <tr>
+        <td>Win more horses</td>
+        <td><em class="good">Good</em></td>
+      </tr>
+      <tr>
+        <td>Son injurt</td>
+        <td><em class="bad">Bad</em></td>
+      </tr>
+      <tr>
+        <td>Avoid war</td>
+        <td><em class="good">Good</em></td>
+      </tr>
+    </tbody>
+    </table>
 </section>
+<section id="more_links">
+  <h3>Some interesting links</h3>
+  <a href="https://medium.com/flutter/flutter-whats-next-on-the-web-e0454bff964" target="_blank" title="Flutter for Web! EXCITED?">
+    Flutter for Web! EXCITED?
+  </a>
 
+  <a href="https://bbc.com/news/technology-56012952" target="_blank" title="Bitcoin consumes 'more electricity than Argentina'">
+    Bitcoin consumes 'more electricity than Argentina'
+  </a>
+</section>
 <summary>
+  <h2>Summary</h2>
   <p>
     Good and Bad are just one perspective. Bananas are good for monkeys, but monkeys are not good for bananas. Let's not make a big deal out of it...
   </p>
 </summary>
+<section>
 
+</section>
 </main>
 
 <footer>
 Copyright Just Another Company 2017. All right reserved.
+<p class="cite">
+  <cite> Eastern Wisdom, Modern Life: Collected Talks </cite> by Alan Watts. Collected between 1960-1969.
+</p>
 </footer>
 
-  </body>
+</body>
 </html>
